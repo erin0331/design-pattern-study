@@ -7,17 +7,6 @@ public class MenuItem extends MenuComponent {
 	String name;
 	String description;
 	boolean vegetarian;
-
-	@Override
-	public String toString() {
-		return "MenuItem{" +
-			"name='" + name + '\'' +
-			", description='" + description + '\'' +
-			", vegetarian=" + vegetarian +
-			", price=" + price +
-			'}';
-	}
-
 	double price;
 
 	public MenuItem(String name, String description, boolean vegetarian, double price) {

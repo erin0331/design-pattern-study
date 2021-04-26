@@ -4,10 +4,6 @@ package composite.pattern;
  * Component : Client 가 사용할 객체
  */
 public abstract class MenuComponent {
-	@Override
-	public String toString() {
-		return "MenuComponent{}";
-	}
 
 	/* 투명성을 위해 child 관리 메소드도 포함한다. */
 	public void add(MenuComponent menuComponent){

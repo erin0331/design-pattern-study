@@ -18,15 +18,6 @@ public class Menu extends MenuComponent {
 	}
 
 	@Override
-	public String toString() {
-		return "Menu{" +
-			"menuComponents=" + menuComponents +
-			", name='" + name + '\'' +
-			", description='" + description + '\'' +
-			'}';
-	}
-
-	@Override
 	public void add(MenuComponent menuComponent) {
 		menuComponents.add(menuComponent);
 	}
